@@ -28,7 +28,7 @@ export function ProfilePage() {
   const [avatarMsg, setAvatarMsg] = useState(null);
   const [name, setName] = useState("");
   const [tel, setTel] = useState("");
-  const [address, setAddress] = useState("");
+  const [address, setAddress] = useState(""); 
   const [psw, setPsw] = useState(null);
   const [newPsw, setNewPsw] = useState(null);
   const [confirmPswMsg, setConfirmPswMsg] = useState(null);

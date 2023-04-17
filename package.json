@@ -1,8 +1,12 @@
 {
+  "resolve.fallback": {
+    "path": "require.resolve('path-browserify')"
+  },
   "name": "camp-booking-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "4": "^0.0.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@fontsource/roboto": "^4.5.1",
@@ -27,6 +31,7 @@
     "buffer": "^6.0.3",
     "classnames": "^2.3.1",
     "compressorjs": "^1.1.1",
+    "customize-cra": "^1.0.0",
     "date-fns": "^2.28.0",
     "docx": "^7.3.0",
     "dotenv": "^16.0.0",
@@ -36,12 +41,19 @@
     "file-saver": "^2.0.5",
     "global": "^4.4.0",
     "lodash": "^4.17.21",
+    "mime": "^3.0.0",
+    "mime-types": "^2.1.35",
     "moment": "^2.29.3",
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
+    "postcss-normalize": "^10.0.1",
+    "process": "^0.11.10",
     "prop-types": "^15.8.1",
     "qrcode.react": "^1.0.1",
     "react": "^17.0.2",
+    "react-app-rewired": "^2.2.1",
     "react-autocomplete-input": "^1.0.18",
     "react-autosuggest": "^10.1.0",
     "react-bootstrap": "^2.0.0",
@@ -64,7 +76,7 @@
     "react-redux": "^7.2.5",
     "react-responsive-carousel": "^3.2.22",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "react-select": "^5.4.0",
     "react-signature-canvas": "^1.0.5",
     "react-slick": "^0.28.1",
@@ -79,12 +91,13 @@
     "uploader": "^1.48.0",
     "validator": "^13.7.0",
     "web-vitals": "^1.0.1",
+    "webpack": "^5.79.0",
     "xlsx": "^0.18.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "lint": "eslint --ext js,jsx src/",
     "lint:fix": "eslint --fix --ext js,jsx src/",
@@ -116,9 +129,11 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1",
-    "react-error-overlay": "6.0.9"
+    "react-error-overlay": "6.0.9",
+    "webpack-cli": "^5.0.1"
   },
   "engines": {
     "node": ">=16.0.0 <17.0.0"
   }
+  
 }

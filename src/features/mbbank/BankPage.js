@@ -3,7 +3,7 @@ import TitleBar from 'shared/components/TitleBar'
 import styles from './bankPage.module.css'
 import { MdOutlineContentCopy } from 'react-icons/md'
 
-import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'
+import { Swiper, SwiperSlide } from '../../../node_modules/swiper/react/swiper-react'
 // import { Pagination } from 'swiper';
 // import useMediaQuery from 'hooks/useMediaQuery';
 

@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom'
 
 //swiper
 import { FreeMode } from 'swiper'
-import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'
-import 'swiper/swiper-bundle.min.css'
+import { Swiper, SwiperSlide } from '../../../../node_modules/swiper/react/swiper-react'
+import '../../../../node_modules/swiper/swiper-bundle.min.css'
 
 //styles
 import styles from './categorySlider.module.css'

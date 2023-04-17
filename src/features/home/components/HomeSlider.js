@@ -1,9 +1,9 @@
 import React from 'react'
 //swiper
 import { Pagination, Autoplay } from 'swiper'
-import { Swiper, SwiperSlide } from 'swiper/react/swiper-react'
-import 'swiper/swiper-bundle.min.css'
-import 'swiper/swiper.min.css'
+import { Swiper, SwiperSlide } from '../../../../node_modules/swiper/react/swiper-react'
+import '../../../../node_modules/swiper/swiper-bundle.min.css'
+import '../../../../node_modules/swiper/swiper.min.css'
 //styles
 import './homeSlider.css'
 //media query

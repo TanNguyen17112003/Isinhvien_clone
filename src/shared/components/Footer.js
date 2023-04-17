@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
+import { Swiper, SwiperSlide } from "../../../node_modules/swiper/react/swiper-react";
 import { Scrollbar, Autoplay } from "swiper";
 import { Col, Row } from "react-bootstrap";
 
